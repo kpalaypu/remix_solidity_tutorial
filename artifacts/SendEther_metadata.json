@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "sendViaCall",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "sendViaSend",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "sendViaTransfer",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".learneth/remix-project-org/remix-workshops/10.3 Transactions - Sending Ether/sendingEther.sol": "SendEther"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".learneth/remix-project-org/remix-workshops/10.3 Transactions - Sending Ether/sendingEther.sol": {
+			"keccak256": "0x4fd164cc4e930e46580545ca9ec0a459752adee8367c64416288fea2c87bf683",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5324e8bdb7b22714e51dc045436909be38d9f9e767e3fed5e6e9a92b7bd089c3",
+				"dweb:/ipfs/Qmf71uLBCbxrNe3T7yk3PZKS6pvinR18CDxy5VqoB4kT6h"
+			]
+		}
+	},
+	"version": 1
+}

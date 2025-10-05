@@ -336,7 +336,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			".learneth/remix-project-org/remix-workshops/4. Interaction/erc20interaction.sol": "EduCoin"
+			".learneth/remix-project-org/remix-workshops/5. Testnet Deployment/erc20testnetDeployment.sol": "EduCoin"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -350,7 +350,7 @@
 		"remappings": []
 	},
 	"sources": {
-		".learneth/remix-project-org/remix-workshops/4. Interaction/erc20interaction.sol": {
+		".learneth/remix-project-org/remix-workshops/5. Testnet Deployment/erc20testnetDeployment.sol": {
 			"keccak256": "0x128ecb63442e94ade6b02dbc6dd864b63a815eb528f3fd9c0d6db4f8b89642f7",
 			"license": "MIT",
 			"urls": [

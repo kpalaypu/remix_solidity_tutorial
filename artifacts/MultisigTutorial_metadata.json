@@ -22,6 +22,31 @@
 				"type": "constructor"
 			},
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "balance",
+						"type": "uint256"
+					}
+				],
+				"name": "Deposit",
+				"type": "event"
+			},
+			{
 				"inputs": [],
 				"name": "getNumConfirmationsRequired",
 				"outputs": [
@@ -97,6 +122,10 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -112,7 +141,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			".learneth/remix-project-org/remix-workshops/2. Initialize the Contract/contractInitialization.sol": "MultisigTutorial"
+			".learneth/remix-project-org/remix-workshops/3. Deposits/deposits.sol": "MultisigTutorial"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -126,12 +155,12 @@
 		"remappings": []
 	},
 	"sources": {
-		".learneth/remix-project-org/remix-workshops/2. Initialize the Contract/contractInitialization.sol": {
-			"keccak256": "0x71e1afca9ffb0082174e26bf13eb83a70c116fbd6e9c71efae8874164f68aacf",
+		".learneth/remix-project-org/remix-workshops/3. Deposits/deposits.sol": {
+			"keccak256": "0x97c9ca36ca0b181b67a89ae48bac9cef34f4927ce24cf6dfcbd8571b190df86f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://286d9417c7121c2209a68dc70a2770e22f04a9769767e661f00dc0e707b788e8",
-				"dweb:/ipfs/QmQZKd7fvb3B1drtF7NHnjT2LbuiLthrkMBbdHn1Q87HDS"
+				"bzz-raw://f729c8eb3f8857c65647407c010dbef037642f82647abec612cb3ea2bf364a27",
+				"dweb:/ipfs/QmQB6fDCJj51tbaaWgDwCM51VZu2vES3Ev7WLZgq5viUmg"
 			]
 		}
 	},

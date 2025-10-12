@@ -1,0 +1,51 @@
+{
+	"compiler": {
+		"version": "0.5.1+commit.c8a2cb62"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".learneth/remix-project-org/remix-workshops/1 Writing_a_Library/1_contractSimpleLibrary.sol": "test"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".learneth/remix-project-org/remix-workshops/1 Writing_a_Library/1_contractSimpleLibrary.sol": {
+			"keccak256": "0x5989677a8ebb4f4a5b2697bac5e35b9c49c7d10b30c4817f04c4ec5215b8664d",
+			"urls": [
+				"bzzr://52b32700914252721447a4ba7c625c40f93f68d7e52e223d24523ee29ddc5908"
+			]
+		}
+	},
+	"version": 1
+}
